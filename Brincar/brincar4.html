@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gringo or not !?</title>
+</head>
+<body>
+    <h1>Ser Gringo ou não ser!?</h1>
+    <input type="text" name="txt" id="txt">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="resultado"></div>
+
+    <script>
+        var a = window.document.getElementById('txt')
+        var b = window.document.getElementById('resultado')
+        b.innerHTML = `<p>Vamos checar se é <strong> gringo </strong> ou não é!</p>`       
+        function calcular(){
+            if (a.value == 'Brasil') {
+                b.innerHTML += 'Brasileiro'
+            } else { b.innerHTML += 'Gringo!'}
+        }
+    </script>
+        
+</body>
+</html>

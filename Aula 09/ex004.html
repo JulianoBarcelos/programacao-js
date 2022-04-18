@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background-color: rgb(204, 181, 181);
+            color: rgb(62, 62, 133);
+            font: normal 10pt Arial
+        }
+    </style>
+</head>
+<body>
+    <h1>Vamos lá!</h1>
+    <P>É isso aí!</P>
+    <p>Bora aprender, man!</p>
+    <div id="va">Lóxico!</div>
+    <script>
+    var x = window.prompt ('Qual o seu nome?')
+    window.alert(`E aí, ${x}`)
+    window.document.querySelector('div#va').innerHTML = 'juliano' 
+    
+    </script>
+    
+</body>
+</html>
