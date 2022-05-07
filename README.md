@@ -1,3 +1,3 @@
 # programacao-js
-Java Script Curso em Vídeo
+JavaScript Curso em Vídeo
 
