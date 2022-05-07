@@ -1,4 +1,3 @@
 # programacao-js
- JS Curso em Video
+Java Script Curso em Vídeo
 
- Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
